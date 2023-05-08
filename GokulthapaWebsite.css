@@ -1,0 +1,111 @@
+body {/*setting all margin of the body to 0*/
+  margin: 0;
+  background: #f3f3f3;;
+}
+h1 {  /*styling favouite singer name by adding border at the bottom*/
+  margin-left: 30px;
+  border-bottom: 1px solid rgb(168, 166, 166);
+}
+h3 {/*adding border at the bottom*/
+  border-bottom: 1px solid rgb(168, 166, 166);
+}
+#Contents-container {/*changing the display to inline-block so it doesn't cover section and adding border and background color. Also, maintaining margin and padding*/
+  display: inline-block;
+  background-color: #fcfcfc;
+  border: solid #eeeeee;
+  border-width: 1px 1px;
+  margin-left: 30px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+#Contents-container ul {/*setting list-style to none for adding custom list-style*/
+  list-style: none;
+}
+#Contents-container li a {/*removing the underline from <a href> element */
+  color: #227ed5;
+  text-decoration: none;
+}
+.Contents-heading-container h2 {/*selecting h2 inside contents-heading-container and styling*/
+  margin: 0;
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(168, 166, 166);
+}
+
+#intro-section {/*adjusting padding and margin of the intro-section and changing the background color*/
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #fcfcfc;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+#bio-section {/*adjusting padding and margin of the bio-section and changing the background color*/
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #fcfcfc;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+#bio-container {/*changing display to grid and making 2 elements fit inside it by taking equal margin*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bio-image {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+#discography-section {/*styling for the discography-section*/
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #fcfcfc;
+  padding: 10px 20px;
+}
+.albums-heading {/*styling for all elements that containes class="albums-heading" */
+  margin-left: 22px;
+  border-bottom: 1px solid rgb(168, 166, 166);;
+}
+
+#media-section {/*styling for media-section*/
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #fcfcfc;
+  padding: 10px 20px;
+
+}
+.img-container {/*changing the display to flex and creating equal spacing between images using justify-content */
+  display: flex;
+  justify-content: space-between;
+}
+.video-container {/* display:flex and justify-content is used to center the position of the video*/
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer {/*styling for the footer*/
+  background-color: #fcfcfc;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+#External-links-section {/*styling for the external links*/
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #fcfcfc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+#External-links-section a {/*stylig for the <a> elements inside external-links-section*/
+  text-decoration: none;
+  color:#227ed5;
+}
+
